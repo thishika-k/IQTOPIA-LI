@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQTOPIA - Learning Without Limits</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">IQTOPIA</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#iq-test">IQ Test</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#login">Login / Sign Up</a></li>
+        </ul>
+    </nav>
+    <header id="home">
+        <h1>Welcome to IQTOPIA</h1>
+        <p>Where every child learns without limits!</p>
+        <button onclick="startAdventure()">Start Learning</button>
+    </header>
+    <section id="courses">
+        <h2>Interactive Courses</h2>
+        <div class="course-container">
+            <div class="course"><h3>Sign Language Basics</h3><p>Learn essential sign language.</p></div>
+            <div class="course"><h3>Visual Storytelling</h3><p>Animated stories for comprehension.</p></div>
+        </div>
+    </section>
+    <section id="games">
+        <h2>Learning Games</h2>
+        <div class="game-container">
+            <div class="game" onclick="startGame('memory')"><h3>Memory Match</h3><p>Match symbols to enhance skills.</p></div>
+            <div class="game" onclick="startGame('puzzle')"><h3>Puzzle Quest</h3><p>Solve puzzles to unlock adventures!</p></div>
+        </div>
+    </section>
+    <section id="iq-test">
+        <h2>Take the IQ Test</h2>
+        <p>Assess learning progress through an adaptive IQ test.</p>
+        <button onclick="startIQTest()">Start Test</button>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@iqtopia.com</p>
+        <p>Phone: +123-456-7890</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
